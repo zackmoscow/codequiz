@@ -23,5 +23,5 @@ var questions = [
         title: "Which of the following is NOT a geolocation object property?",
         choices: ["coordinates", "coordinatesOptions", "position", "positionOptions"],
         answer: "coordinatesOptions"
-    },
+    }
   ];
