@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
     <title>Code Quiz</title>
   </head>
   <body>
@@ -14,17 +15,18 @@
             <div class="col-4" id="timer"> Time Remaining </div>
         </div>
     
-        <div class="container, start">
+        <div class="container" id="landing">
             <h1>Coding Quiz Challenge</h1>
             <br>
             <p>Try to answer the following code-related questions within the time limit.</p> 
             <p>Answering a question both quickly and correctly results in a higher score!</p>
             <p>Answering a question incorrectly results in a time penalty. Good luck!</p>
             <br>
-            <button class="startButton">Start Quiz</button>
+            <button id="startButton">Start Quiz</button>
         </div>    
         
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="questions.js"></script>
     <script src="script.js"></script>
   </body>

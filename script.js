@@ -1,7 +1,7 @@
 //VARIABLES
 var secondsLeft = (15 * questions.length);
 var timer = document.querySelector("#timer");
-
+var startButton = document.querySelector("#startButton");
 
 //TIMER
 
@@ -17,7 +17,16 @@ function gameTimer() {
     }, 1000);
 };
 
-gameTimer();
+
+
+//QUIZ START
+startButton.addEventListener("click", startQuiz)
+
+function startQuiz() {
+    $("#landing").hide();
+    gameTimer();
+}
+
 
 
 
