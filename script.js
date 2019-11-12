@@ -111,5 +111,5 @@ function tabulate(event) {
     event.preventDefault();
     var userSubmission = document.querySelector("#initials").value + ": " + score;
     localStorage.setItem("UserScore", userSubmission);
-    location.href = "https://www.google.com";
+    location.href = "https://zackmoscow.github.io/codequiz/highscores.html";
 }
