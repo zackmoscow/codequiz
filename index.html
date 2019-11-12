@@ -9,36 +9,41 @@
   </head>
   <body>
     <div id="header" class="container-fluid">
-        <div class="row">
-            <div class="col-4, highScores"> Highscores </div>
+        <div class="row p-2 bg-light text-danger">
+            <div class="col-4 text-center"><a class="text-success" href="https://zackmoscow.github.io/codequiz/highscores.html">High Scores</a></div>
             <div class="col-4"></div>
-            <div class="col-4" id="timer"> Time Remaining </div>
+            <div class="col-4 text-center" id="timer"> Time Remaining </div>
         </div>
-    
-        <div class="container" id="landing">
-            <h1>Coding Quiz Challenge</h1>
+        <br>
+        <div class="container text-center" id="landing">
+            <h1 class="text-primary">Coding Quiz Challenge</h1>
             <br>
             <p>Try to answer the following code-related questions within the time limit.</p> 
             <p>Answering a question both quickly and correctly results in a higher score!</p>
             <p>Answering a question incorrectly results in a time penalty. Good luck!</p>
             <br>
-            <button id="startButton">Start Quiz</button>
+            <button type="button" class= "btn btn-primary" id="startButton">Start Quiz</button>
         </div>    
 
-        <div class="container" id="questionBody">
-            <h2 id="question"></h2>
-            <ol class="list">
-              <li class="choices" id="answer1"></li>
-              <li class="choices" id="answer2"></li>
-              <li class="choices" id="answer3"></li>
-              <li class="choices" id="answer4"></li>
+        <div class="container text-center" id="questionBody">
+            <h2 class= "text-primary" id="question"></h2>
+            <br>
+            <ol class="list-inline justify-text-center">
+              <li class="choices font-weight-bold" id="answer1"></li>
+              <br>
+              <li class="choices font-weight-bold" id="answer2"></li>
+              <br>
+              <li class="choices font-weight-bold" id="answer3"></li>
+              <br>
+              <li class="choices font-weight-bold" id="answer4"></li>
             </ol>
-            <p id="verify"></p>
+            <br>
+            <p class="font-italic text-warning" id="verify"></p>
         </div>
     
         <div class="container" id="endQuiz">
-            <h1>All done!</h1>
-            <h2>Your final score is: <span id="score"></span></h2>
+            <h1 class="text-primary text-center">All done!</h1>
+            <h2 class="text-info text-center">Your final score is: <span id="score"></span></h2>
             <form>
                 <div class="form-group">
                   <label for="initials">Initials</label>

@@ -8,19 +8,20 @@
     <title>Highscores</title>
 </head>
 
-<div class="container">
+<div class="jumbotron">
     <div class="row justify-content-md-center">
-        <div class="col-6 highscore-page">
-          <h1>Highscores</h1>
-          <div id="highscores"></div>
+        <div class="col-md highscore-page">
+          <h1 class= "text-primary text-center">High Scores:</h1>
+          <div class= "text-success text-center" id="highscores"></div>
         </div>
     </div>   
+    <br>
     <div class="row justify-content-md-center">
-        <div class="col-10">
-          <button id= "clearbutton">Clear High Scores</button>  
+        <div class="col-10 text-center">
+          <button type="button" class= "btn btn-primary" id= "clearbutton">Clear High Scores</button>  
         </div>
     </div>        
-</div class="container">
+</div">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="highscorescript.js"></script>
 
