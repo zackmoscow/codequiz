@@ -11,8 +11,8 @@ var questions = [
     },
     {
       title: "Which of the following is NOT a valid text element?",
-      choices: ["<p>", "<h2>", "<h5>", "<h7>"],
-      answer: "<h7>"
+      choices: ["p", "h2", "h5", "h7"],
+      answer: "h7"
     },
     {
       title: "What is the correct method to add a new child node to an element?",
