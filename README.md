@@ -1,6 +1,8 @@
 # codequiz
 building a timed quiz with questions on JS fundamentals
 
+## https://zackmoscow.github.io/codequiz/
+
 ## index.html
 - build placeholders for header, "landing" element, question element, and end quiz element
 - be very careful with assigning IDs to key elements
